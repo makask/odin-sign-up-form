@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-side">
+            <div class="logo">
+               <img class="odin-logo" src="./pics/odin-lined.png" alt="">
+               <h1 class="odin-logo-name">ODIN</h1>
+            </div>
+            <div class="photo-author">
+                <h1>Photo by <u>Halie West</u> on <u>Unsplash</u></h1>
+            </div>
+        </div>
+        <div class="right-side">
+           <div class="right-upper">
+              <p class="introduction">This is not a real online service! You know you need
+                something like this in your life to help you realize your 
+                deepest dreams.
+              </p>
+              <p>
+                Sign up <em>now</em> to get started.
+              </p>
+              <br>
+              <br>
+              <p>You <em>know</em> you want to.</p>
+           </div> 
+           <div class="right-middle">
+                <p>Let`s do this!</p>
+                <form action="#" method="post">
+                    <div class="form-fields">
+                        <div class="form-first-column">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name" required minlength="3" maxlength="25">
+                            <label for="user_email">EMAIL</label>
+                            <input type="email" id="user_email" name="user_email" required>
+                            <label for="pwd">PASSWORD</label>
+                            <input type="password" id="pwd" name="pwd" required>
+                        </div>
+                        <div class="form-second-column">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name" required minlength="3" maxlength="25">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" id="phone_number" name="phone_number">
+                            <label for="conf_pwd">CONFIRM PASSWORDS</label>
+                            <input type="password" id="conf_pwd" name="conf_pwd" required>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit">Create Account</button>
+                    </div>
+                </form>
+                <div class="final-words">
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+           </div>
+           
+        </div>
+    </div>
+</body>
+</html>
