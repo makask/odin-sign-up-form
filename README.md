@@ -1,7 +1,7 @@
 # odin-sign-up-form
 
 Web design layout exercise provided by Project Odin. The design of this page is provided by project odin and the main task is to achieve a 
-result as similar as possible to the given design using html and css.
+result as similar as possible to the given design using html, css and javascript.
 
 Page is not responsive.
 
